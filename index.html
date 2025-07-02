@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tic-Tac-Toe Pro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Tic-Tac-Toe</h1>
+
+    <!-- Game Mode Selector -->
+ <!-- Game Mode Selector -->
+<div class="mode-selector">
+  <button id="modePVP" class="mode-btn active">🎮 Player vs Player</button>
+  <button id="modeAI" class="mode-btn">🤖 Player vs AI</button>
+</div>
+
+
+    <!-- Scoreboard -->
+    <div class="scoreboard">
+      <div>Player X: <span id="scoreX">0</span></div>
+      <div>Player O: <span id="scoreO">0</span></div>
+    </div>
+
+    <!-- Game Grid -->
+    <div class="game-board">
+      <div class="cell" id="0"></div>
+      <div class="cell" id="1"></div>
+      <div class="cell" id="2"></div>
+      <div class="cell" id="3"></div>
+      <div class="cell" id="4"></div>
+      <div class="cell" id="5"></div>
+      <div class="cell" id="6"></div>
+      <div class="cell" id="7"></div>
+      <div class="cell" id="8"></div>
+    </div>
+
+    <div id="gameMessage"></div>
+
+    <!-- Controls -->
+    <div class="controls">
+      <button id="restartButton">Restart Round</button>
+      <button id="newGameButton">New Game</button>
+      <button id="clearScoreButton">Clear Score</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
